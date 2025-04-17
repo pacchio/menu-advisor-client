@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Menu Advisor (Client)
 
-## Getting Started
+**Menu Advisor** is a small demo project that showcases the Menu Advisor model in action. It provides a simple interface to help restaurants suggest the best dishes to customers based on their preferences and dietary restrictions. It connects to an AI model backend to generate dynamic questions and suggest dishes in real time
 
-First, run the development server:
+👉 Powered by the [Menu Advisor Model](https://github.com/pacchio/menu-advisor-model)
+
+---
+
+### 🚀 How to Start Locally
+
+#### 1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   git clone https://github.com/your-username/menu-advisor-client.git
+   cd menu-advisor-client
+ ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 2. **Install dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+   yarn install
+ ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 3. **Set environment variables**
 
-## Learn More
+Create a .env.local file and add your backend base URL:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000
+ ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 4. Run the development server
+```bash
+   yarn dev
+ ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open your browser at http://localhost:3000 to start using the app.
 
-## Deploy on Vercel
+### 🧠 Backend Model
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project communicates with an AWS Lambda through an API Gateway.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can find the backend project here:
+👉 [Menu Advisor Model Repository](https://github.com/pacchio/menu-advisor-model)
+
+### 🎬 Demo
+
+Check out a quick video of how it works in action:
+
+<video controls width="600">
+  <source src="./demo.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
