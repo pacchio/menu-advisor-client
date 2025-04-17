@@ -47,7 +47,4 @@ You can find the backend project here:
 
 Check out a quick video of how it works in action:
 
-<video controls width="600">
-  <source src="./demo.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+👉 [Demo](./demo.mov)
