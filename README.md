@@ -47,4 +47,4 @@ You can find the backend project here:
 
 Check out a quick video of how it works in action:
 
-👉 [Demo](./demo.mov)
+![Demo](./demo.gif)
